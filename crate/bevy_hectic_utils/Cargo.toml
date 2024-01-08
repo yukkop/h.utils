@@ -1,0 +1,14 @@
+[package]
+name = "bevy_hectic_utils"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+strum = ["dep:strum"]
+
+[dependencies]
+bevy_derive = "0.12.1"
+bevy_utils = "0.12.1"
+env_logger = "0.10.1"
+log = "0.4.20"
+strum = { version = "0.25.0", optional = true }
