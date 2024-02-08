@@ -6,3 +6,5 @@ TEXT=text
 
 log some log $TEXT 
 error some error $TEXT 
+warning some error $TEXT 
+trace some error $TEXT 
